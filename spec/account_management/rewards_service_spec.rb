@@ -9,7 +9,7 @@ describe AccountManagement::RewardsService do
     before do
       allow(CustomerStatus::EligibilityService).to receive(:new)
         .and_return(double "EligibilityService", 
-          service_output: "CUSTOMER_ELIGIBLE",
+          output: "CUSTOMER_ELIGIBLE",
           description: "Customer is eligible")  
     end
      
@@ -39,7 +39,7 @@ describe AccountManagement::RewardsService do
       before do
         allow(CustomerStatus::EligibilityService).to receive(:new)
           .and_return(double "EligibilityService", 
-            service_output: "CUSTOMER_INELIGIBLE",
+            output: "CUSTOMER_INELIGIBLE",
             description: "Customer is not eligible")  
       end
 
@@ -52,7 +52,7 @@ describe AccountManagement::RewardsService do
       before do
         allow(CustomerStatus::EligibilityService).to receive(:new)
           .and_return(double "EligibilityService", 
-            service_output: "Technical failure exception",
+            output: "Technical failure exception",
             description: "Service technical failure")  
       end
 
@@ -65,7 +65,7 @@ describe AccountManagement::RewardsService do
       before do
         allow(CustomerStatus::EligibilityService).to receive(:new)
           .and_return(double "EligibilityService", 
-            service_output: "Invalid account number exception",
+            output: "Invalid account number exception",
             description: "The supplied account number is invalid")  
       end
 
