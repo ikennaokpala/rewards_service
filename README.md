@@ -47,5 +47,6 @@ Or install it yourself as:
 
 ## To run the tests run these commands:
 
-$ gem install rspec
-$ rspec spec/account_management/rewards_service_spec.rb
+	$ gem install rspec
+
+	$ rspec spec/account_management/rewards_service_spec.rb
