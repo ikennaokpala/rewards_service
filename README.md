@@ -22,29 +22,6 @@ Rewards Service test code and kata..
 	MUSIC 			   KARAOKE_PRO_MICROPHONE NEWS N/A
 	MOVIES 			   PIRATES_OF_THE_CARIBBEAN_COLLECTION
 
-## Installation
-
-Add this line to your application's Gemfile:
-
-    gem 'rewards_service'
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install rewards_service
-
-
-## Contributing
-
-1. Fork it ( https://github.com/[my-github-username]/rewards_service/fork )
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Add some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create a new Pull Request
-
 ## To run the tests run these commands:
 
 	$ gem install rspec
